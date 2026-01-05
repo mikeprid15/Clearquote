@@ -3,8 +3,8 @@ import { createClient } from "@supabase/supabase-js";
 import "./styles.css";
 
 const supabase = createClient(
-  "PASTE_YOUR_PROJECT_URL_HERE",
-  "PASTE_YOUR_ANON_PUBLIC_KEY_HERE"
+"https://dfvwysfjvpzqwmpjmfup.supabase.co",
+"sb_publishable_A5yjzflmZLWzmwkYaOKL2w_eW-N02a0"
 );
 
 export default function App() {
